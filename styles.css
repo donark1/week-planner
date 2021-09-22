@@ -1,0 +1,20 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+}
+
+.addEntryButton {
+  background-color: rgb(106, 157, 252);
+  padding: 0.5rem 1rem;
+  outline: none;
+  width: 150px;
+  height: 30px;
+  margin: auto;
+  box-shadow: 1px 2px;
+}
+
+.addEntryButton:hover {
+  background-color: rgb(159, 198, 211);
+}
