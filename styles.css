@@ -39,9 +39,25 @@
 }
 
 .modalContent {
-  background-color: #fefefe;
+  width: 450px;
+  text-align: center;
   margin: auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+  background-color: white;
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+/* The Close Button */
+.submitClose {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.submitClose:hover,
+.submitClose:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }

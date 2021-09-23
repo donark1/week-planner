@@ -17,7 +17,27 @@
 
     <div class="addEntryModal">
       <div class="modalContent">
-        <h1>Add Entry</h1>
+        <form>
+          <h1 class="addEntryModalHeader">Add Entry</h1>
+          <div class="row">
+            <select name="dayOfTheWeek" required>
+              <option value="">Day of Week</option>
+              <option value="sunday">Sunday</option>
+              <option value="monday">Monday</option>
+              <option value="tuesday">Tuesday</option>
+              <option value="wednesday">Wednesday</option>
+              <option value="thursday">Thursday</option>
+              <option value="friday">Friday</option>
+              <option value="saturday">Saturday</option>
+            </select>
+          <div class="row">
+            <textarea required class="textareaWidth margin-bottom fontOverpass" name="description" id="description" cols="30" rows="10" placeholder="Description"></textarea>
+          </div>
+          <div class="row rowFlexEnd">
+            <input type="submit" class="submit-entry-button" value="Submit">
+          </div>
+          </div>
+        </form>
       </div>
     </div>
   </div>
