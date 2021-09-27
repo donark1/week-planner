@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="container">
-    <div class="row">
+    <div class="row weeklyPlanner">
       <h1>Weekly Planner</h1>
     </div>
     <div class="row">
@@ -19,8 +19,8 @@
       <div class="modalContent">
         <form>
           <h1 class="addEntryModalHeader">Add Entry</h1>
-          <div class="row">
-            <select name="dayOfTheWeek" required>
+          <div class="row dayOfWeek">
+            <select name="dayOfTheWeek" class="dayOfWeek" required>
               <option value="">Day of Week</option>
               <option value="sunday">Sunday</option>
               <option value="monday">Monday</option>
@@ -30,7 +30,7 @@
               <option value="friday">Friday</option>
               <option value="saturday">Saturday</option>
             </select>
-            <select name="time" required>
+            <select name="time" class="time" required>
               <option value="time">Time</option>
               <option value="midnight">00:00</option>
               <option value="one">01:00</option>
@@ -58,12 +58,12 @@
               <option value="twenty-three">23:00</option>
               <option value="twenty-four">24:00</option>
             </select>
+          </div>
           <div class="row">
-            <textarea required class="textareaWidth margin-bottom fontOverpass" name="description" id="description" cols="30" rows="10" placeholder="Description"></textarea>
+            <textarea required class="description" name="description" id="description" cols="90" rows="7" placeholder="Description"></textarea>
           </div>
-          <div class="row rowFlexEnd">
-            <input type="submit" class="submit-entry-button" value="Submit">
-          </div>
+          <div class="row submitContainer">
+            <input type="submit" class="submitEntryButton" value="Submit">
           </div>
         </form>
       </div>
