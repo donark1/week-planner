@@ -76,18 +76,3 @@ select {
 .submitEntryButton {
   padding: 0.5rem 1rem;
 }
-
-/* The Close Button */
-.submitClose {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.submitClose:hover,
-.submitClose:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
