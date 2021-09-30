@@ -11,6 +11,19 @@
 
 .weeklyPlanner {
   justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.days {
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.dayButtons {
+  background-color: rgba(245, 245, 245, 0.897);
+  padding: 2rem;
+  width: 150px;
+  margin-bottom: 3rem;
 }
 
 .addEntryButton {
