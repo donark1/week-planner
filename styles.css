@@ -9,8 +9,22 @@
   width: 100%;
 }
 
-.weeklyPlanner {
+.weeklyPlanner,
+.scheduledEvents {
   justify-content: center;
+  margin-bottom: 3rem;
+}
+
+.days {
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.dayButtons {
+  background-color: rgba(245, 245, 245, 0.897);
+  padding: 2rem;
+  width: 150px;
+  margin-bottom: 3rem;
 }
 
 .addEntryButton {
@@ -20,6 +34,7 @@
   width: 150px;
   height: 30px;
   margin: auto;
+  margin-bottom: 3rem;
   box-shadow: 1px 2px;
 }
 
@@ -75,4 +90,25 @@ select {
 
 .submitEntryButton {
   padding: 0.5rem 1rem;
+}
+
+.scheduleTable {
+  text-align: center;
+}
+
+table {
+  width: 90%;
+  margin: auto;
+}
+
+th {
+  text-align: start;
+}
+
+th:first-child {
+  width: 25%;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(160, 153, 153);
 }
