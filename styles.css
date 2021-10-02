@@ -25,6 +25,7 @@
   padding: 2rem;
   width: 150px;
   margin-bottom: 3rem;
+  margin-right: 2rem;
 }
 
 .addEntryButton {
@@ -97,18 +98,25 @@ select {
 }
 
 table {
-  width: 90%;
+  width: 70%;
   margin: auto;
+  border: 2px solid black;
 }
 
 th {
-  text-align: start;
+  text-align: left;
+  background-color: rgb(160, 153, 153);
 }
 
 th:first-child {
   width: 25%;
 }
 
+tr {
+  text-align: left;
+  border-right-color: 2px solid black;
+}
+
 tr:nth-child(odd) {
-  background-color: rgb(160, 153, 153);
+  background-color: rgb(197, 191, 191);
 }
