@@ -21,11 +21,16 @@
 }
 
 .dayButtons {
-  background-color: rgba(245, 245, 245, 0.897);
+  background-color: rgba(245, 245, 245, 0);
   padding: 2rem;
   width: 150px;
   margin-bottom: 3rem;
   margin-right: 2rem;
+}
+
+.dayButtons:hover {
+  background-color: rgba(245, 245, 245, 0.897);
+  cursor: pointer;
 }
 
 .addEntryButton {
@@ -41,6 +46,7 @@
 
 .addEntryButton:hover {
   background-color: rgb(159, 198, 211);
+  cursor: pointer;
 }
 
 .addEntryModal {
